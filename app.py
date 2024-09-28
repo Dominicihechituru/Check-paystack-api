@@ -13,7 +13,7 @@ def hello_world():
 def check_subscription(subscription_code):
     url = f"https://api.paystack.co/subscription/{subscription_code}"
     headers = {
-        "Authorization": "Bearer sk_live_ca56f5de9a6ec2553c20792cfa92d61f8a2a815c"  # Replace with your own secret key
+        "Authorization": "Bearer pk_test_c4706f1b2ad704752356bc09a889ec5c4b9d93c5"  # Replace with your own secret key
     }
 
     response = requests.get(url, headers=headers)
